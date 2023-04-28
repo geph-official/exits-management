@@ -38,6 +38,7 @@ pub struct ExitInfo {
     pub country_code: SmolStr,
     pub city_code: SmolStr,
     pub plus: bool,
+    pub user: String,
 }
 
 fn get_exits(yaml_path: &Path) -> anyhow::Result<BTreeMap<SmolStr, ExitInfo>> {

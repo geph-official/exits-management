@@ -38,6 +38,7 @@ pub async fn create_yaml_gibbername(
                     country_code: e.country_code,
                     city_code: e.city_code,
                     plus: e.allowed_levels.contains(&Level::Plus),
+                    user: "root".to_string(),
                 },
             )
         })
