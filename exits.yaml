@@ -185,7 +185,7 @@ tw-rmq-101.geph.io:
   sosistab_key: 45d8fd40d15b673ad053f4dd0e72f16fdfd544bb66635b26350a2330c1dded6b
   country_code: tw
   city_code: rmq
-  plus: false
+  plus: true
   user: root
 us-pdx-105.geph.io:
   signing_key: 4c2ef07adeb08d0a74e62f0df2eae137908a86bb0aaef08ee96487bd1fae97ad
@@ -213,5 +213,5 @@ us-sfo-101.geph.io:
   sosistab_key: 18f6a7efe583af8f1eb3e64ce956d5247bf290b47e1ca7765a89deb5a3a43f04
   country_code: us
   city_code: sfo
-  plus: false
+  plus: true
   user: root
