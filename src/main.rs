@@ -29,6 +29,8 @@ fn main() {
 
         // // update the database, retrying on failure
         repeat_fallible(|| update_db(yaml_path)).await;
+
+        println!("Success!");
     })
 }
 
