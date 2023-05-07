@@ -1,5 +1,6 @@
 use std::{collections::BTreeMap, env, future::Future, path::Path, str::FromStr, time::Duration};
 
+use anyhow::Context;
 use blake3::Hash;
 use melstructs::{Address, NetID};
 use serde::{Deserialize, Serialize};
@@ -89,10 +90,12 @@ async fn update_db(yaml_path: &Path) -> anyhow::Result<()> {
     let database_url =
         env::var("DATABASE_URL").expect("Please set the DATABASE_URL environment variable");
     let pool = PgPool::connect(&database_url).await?;
-    let tx = pool.begin().await?;
+    let mut tx = pool.begin().await?;
+
+    sqlx::query("delete from exits").execute(&mut tx).await?;
 
     for (hostname, info) in exits.into_iter() {
-        let _query = sqlx::query(
+        sqlx::query(
             r#"
         INSERT INTO exits VALUES
         ($1, $2, $3, $4, $5, $6)
@@ -104,9 +107,9 @@ async fn update_db(yaml_path: &Path) -> anyhow::Result<()> {
         .bind(info.city_code.to_string())
         .bind(hex::decode(info.sosistab_key)?)
         .bind(info.plus)
-        .execute(&pool)
+        .execute(&mut tx)
         .await
-        .expect("'o' failed to add exit!! 'o'");
+        .context("'o' failed to add exit!! 'o'")?;
     }
 
     tx.commit().await?;
