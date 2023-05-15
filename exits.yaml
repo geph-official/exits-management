@@ -1,3 +1,20 @@
+# New scaleway bridges
+nl-ams-101.geph.io:
+  signing_key: 40c6a118ca16a4777bd0f66129d8735b89bdeb93d1ba00ae5a86a0f81acabab6
+  sosistab_key: 70ac6d53ee966fa0d72049c2d3b451ff31ea9da3caea291ca82619df8758bd1c
+  country_code: nl
+  city_code: ams
+  plus: false
+  user: root
+nl-ams-102.geph.io:
+  signing_key: 6c191b63eb63f8155655e1606d4ee0167ecfe5c390bd676adb3c22d2a302ea2a
+  sosistab_key: 2c3772f8be70b6c58f6f493552ca72dde11baf2a56d6d44fc2c37c6196438027
+  country_code: nl
+  city_code: ams
+  plus: false
+  user: root
+
+# Other bridges
 1.ams.nl.ngexits.geph.io:
   signing_key: 756991cf09b8d134cba6e18c8db3f05c6f47a9b44a543dcf79bf732e32a2f329
   sosistab_key: aaaba7f21c5b6c0e605914bf879592ff7f11cf70100d76ace7fca926c248b608
@@ -180,13 +197,6 @@ jp-tyo-01.exits.geph.io:
   city_code: tyo
   plus: true
   user: root
-#nl-ams-101.geph.io:
-#  signing_key: d6dd4e40fd9660d5dbd67867689fcbec5c7e122f611b61a669a7cbd4451efba9
-#  sosistab_key: 7e029dad594b4472292fe9c82259805b904865fad86ab594713bc73c113c1320
-#  country_code: nl
-#  city_code: ams
-#  plus: false
-#  user: root
 tw-rmq-101.geph.io:
   signing_key: 9632469af031943133e1bdd6c6f7e8c0b2c4ec61b946900e4663aecb55d3b270
   sosistab_key: 45d8fd40d15b673ad053f4dd0e72f16fdfd544bb66635b26350a2330c1dded6b
