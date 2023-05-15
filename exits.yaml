@@ -166,6 +166,13 @@ fr-par-102.geph.io:
   city_code: par
   plus: false
   user: debian
+fr-par-103.geph.io:
+  signing_key: 9645fa5f589cffb010609235d8d6da7200c8bd3cf22cb91658acbe7f77cfa388
+  sosistab_key: 3d47bfd3146b61f41191eaeceda2472073152c7d14942a7281403b72ad45dc04
+  country_code: fr
+  city_code: par
+  plus: false
+  user: debian
 jp-tyo-01.exits.geph.io:
   signing_key: 764d36b718642a3ffe1a5b4435fe33fa6be7e7d3db6ecbfc2d9ba945035c5c1c
   sosistab_key: 42832205aec3b3c956ad5f56d4abc43ba121cf58d0c295c1cd519f18f0158560
