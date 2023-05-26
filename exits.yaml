@@ -13,6 +13,13 @@ nl-ams-102.geph.io:
   city_code: ams
   plus: false
   user: root
+fr-par-104.geph.io:
+  signing_key: da771efe3f2e2ae3e49b9697fa3768bb1629cfbd95f49908605e658a6ae5adca
+  sosistab_key: 03d9e1a4f93beff2328389aba5d78539327e1a336752b908182556bf832a041d
+  country_code: fr
+  city_code: par
+  plus: false
+  user: root
 
 # Other bridges
 1.ams.nl.ngexits.geph.io:
@@ -219,8 +226,8 @@ us-pdx-106.geph.io:
   plus: false
   user: debian
 us-pdx-107.geph.io:
-  signing_key: 59e38442c5382cd4536cfeecf2c10c06bbdbcde722c273e1ae67641c135eac4f
-  sosistab_key: bbbcb95e3bd46375620300c952ff7cad8883a7e4862183038febab02ea8f7722
+  signing_key: 95c1cf58e215816f7946a50def03b63b8032db513aae47859006ed85e6984855
+  sosistab_key: 17e6d03fe0954ada9338c08cf206bf5dbead9ae44f5566ae0b435159df2dee35
   country_code: us
   city_code: pdx
   plus: false
