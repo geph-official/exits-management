@@ -59,13 +59,13 @@ fr-par-107.geph.io:
   city_code: mtl
   plus: false
   user: debian
-# 1.pdx.us.ngexits.geph.io:
-#   signing_key: 3b33679e4818b04899259ef2ee4cef7d236b83094f430c0d2a02bcc20b2d1629
-#   sosistab_key: 31d960bbbd8d3a20ab46071731b5f7b328f20a65aa976fe038bf2949ca497032
-#   country_code: us
-#   city_code: pdx
-#   plus: false
-#   user: debian
+1.pdx.us.ngexits.geph.io:
+  signing_key: 3b33679e4818b04899259ef2ee4cef7d236b83094f430c0d2a02bcc20b2d1629
+  sosistab_key: 31d960bbbd8d3a20ab46071731b5f7b328f20a65aa976fe038bf2949ca497032
+  country_code: us
+  city_code: pdx
+  plus: false
+  user: debian
 1.sgp.sg.ngexits.geph.io:
   signing_key: 3bccc97cf0fe647e1733c99d846c0c1503724d4c90fda4abc831c178caa4db12
   sosistab_key: 271c5642b5a9854eccd0fa3356f3d8f1320a4b12ecb3a0222657202a0ba0e335
@@ -87,13 +87,13 @@ fr-par-107.geph.io:
   city_code: mtl
   plus: false
   user: debian
-# 2.pdx.us.ngexits.geph.io:
-#   signing_key: 66fd27ccf35b05ef3fd49e4fe9bec4c1f31f44c54c1aaecc2be50faf49a8a5a5
-#   sosistab_key: a854f5e6645eda98738933c8c5fd7a2c0069e6a108b65329210bab740eabe43d
-#   country_code: us
-#   city_code: pdx
-#   plus: false
-#   user: debian
+2.pdx.us.ngexits.geph.io:
+  signing_key: 66fd27ccf35b05ef3fd49e4fe9bec4c1f31f44c54c1aaecc2be50faf49a8a5a5
+  sosistab_key: a854f5e6645eda98738933c8c5fd7a2c0069e6a108b65329210bab740eabe43d
+  country_code: us
+  city_code: pdx
+  plus: false
+  user: debian
 2.waw.pl.ngexits.geph.io:
   signing_key: 811da6ea622bb9605dc16282073c11a52a85c67bd08e2a51da5d73e3fa5be9ce
   sosistab_key: ffb8f9cca942f8d288215c630d2f79c9fc223e484fc0dff37cd7eb18ba12fc4f
@@ -108,13 +108,13 @@ fr-par-107.geph.io:
   city_code: mtl
   plus: false
   user: debian
-# 3.pdx.us.ngexits.geph.io:
-#   signing_key: 986479b58d7c19f0351a91eb0f4b8e08308154e93edae95d721c0d35a9b7f16b
-#   sosistab_key: ecbd8f605a817d85c0b7450cd47811075ffb4fd33fe9881803ecf4b356525e47
-#   country_code: us
-#   city_code: pdx
-#   plus: false
-#   user: debian
+3.pdx.us.ngexits.geph.io:
+  signing_key: 986479b58d7c19f0351a91eb0f4b8e08308154e93edae95d721c0d35a9b7f16b
+  sosistab_key: ecbd8f605a817d85c0b7450cd47811075ffb4fd33fe9881803ecf4b356525e47
+  country_code: us
+  city_code: pdx
+  plus: false
+  user: debian
 3.waw.pl.ngexits.geph.io:
   signing_key: f6f06e0acc93e78055a339c3dca98b79c068cc88a03d14c4d8008a9eec1c22e9
   sosistab_key: f16d6210826f39bea6dd40f92e8f542f286bc0c0787b2a3dd983d8d5b5764b02
@@ -122,13 +122,13 @@ fr-par-107.geph.io:
   city_code: waw
   plus: false
   user: debian
-# 4.pdx.us.ngexits.geph.io:
-#   signing_key: 22957cf7484996a717ac72cf34f14b0b2f2ae62c0c5bc210fe530cb392b70b3d
-#   sosistab_key: 791c25f8e2ef2a14602d0968ce81b2fcf8ecfc9c416983fecd31f44b0b671f57
-#   country_code: us
-#   city_code: pdx
-#   plus: false
-#   user: debian
+4.pdx.us.ngexits.geph.io:
+  signing_key: 22957cf7484996a717ac72cf34f14b0b2f2ae62c0c5bc210fe530cb392b70b3d
+  sosistab_key: 791c25f8e2ef2a14602d0968ce81b2fcf8ecfc9c416983fecd31f44b0b671f57
+  country_code: us
+  city_code: pdx
+  plus: false
+  user: debian
 ca-mtl-104.geph.io:
   signing_key: 711f1c73d34679b27a0ef126d4a455e2da177b0970e43d96202aca4b32b94e6a
   sosistab_key: e3cb7245f471d04b850b6d450f142a43178d753f1beb544049e726a719dd8d35
@@ -213,28 +213,27 @@ jp-tyo-01.exits.geph.io:
   city_code: tyo
   plus: true
   user: root
-
-# us-pdx-105.geph.io:
-#   signing_key: 4c2ef07adeb08d0a74e62f0df2eae137908a86bb0aaef08ee96487bd1fae97ad
-#   sosistab_key: 92ee196909e041b63218385c39abcf87cd123a5acb125861fc1da35bde7b9b2a
-#   country_code: us
-#   city_code: pdx
-#   plus: false
-#   user: debian
-# us-pdx-106.geph.io:
-#   signing_key: 97f5e65d8ff021117bb9b25655cc7357904f22229537fdf03f2e33d95a6366d2
-#   sosistab_key: 8c02a0fadd054db086ecfa88677cef6742ad86bfac1c98247205ccf4da62957e
-#   country_code: us
-#   city_code: pdx
-#   plus: false
-#   user: debian
-# us-pdx-107.geph.io:
-#   signing_key: 95c1cf58e215816f7946a50def03b63b8032db513aae47859006ed85e6984855
-#   sosistab_key: 17e6d03fe0954ada9338c08cf206bf5dbead9ae44f5566ae0b435159df2dee35
-#   country_code: us
-#   city_code: pdx
-#   plus: false
-#   user: debian
+us-pdx-105.geph.io:
+  signing_key: 4c2ef07adeb08d0a74e62f0df2eae137908a86bb0aaef08ee96487bd1fae97ad
+  sosistab_key: 92ee196909e041b63218385c39abcf87cd123a5acb125861fc1da35bde7b9b2a
+  country_code: us
+  city_code: pdx
+  plus: false
+  user: debian
+us-pdx-106.geph.io:
+  signing_key: 97f5e65d8ff021117bb9b25655cc7357904f22229537fdf03f2e33d95a6366d2
+  sosistab_key: 8c02a0fadd054db086ecfa88677cef6742ad86bfac1c98247205ccf4da62957e
+  country_code: us
+  city_code: pdx
+  plus: false
+  user: debian
+us-pdx-107.geph.io:
+  signing_key: 95c1cf58e215816f7946a50def03b63b8032db513aae47859006ed85e6984855
+  sosistab_key: 17e6d03fe0954ada9338c08cf206bf5dbead9ae44f5566ae0b435159df2dee35
+  country_code: us
+  city_code: pdx
+  plus: false
+  user: debian
 us-sfo-101.geph.io:
   signing_key: 622122439dad74354725e49a8337ec852ea3b67d85daea0dd05b644f07b376c3
   sosistab_key: 18f6a7efe583af8f1eb3e64ce956d5247bf290b47e1ca7765a89deb5a3a43f04
