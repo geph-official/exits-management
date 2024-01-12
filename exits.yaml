@@ -43,6 +43,42 @@ fr-par-107.geph.io:
   city_code: par
   plus: false
   user: root
+fr-par-108.geph.io:
+  signing_key: 8072ab33e7ceb3af540b257d5d44e8c450ecaaa53fba36c6f4f08da58d9b4fe0
+  sosistab_key: a6b529486c99b668e404b132fd09c55fe96f42740ee8d1fc3e03cb9492668252
+  country_code: fr
+  city_code: par
+  plus: false
+  user: root
+fr-par-109.geph.io:
+  signing_key: 8e302a1a643a021af91bc40d98160331083801772e938c2f32d86f1f96573c9e
+  sosistab_key: 3ffea4245049cf96125a859c332b4f5c665c4ab7cfce17a2d51280540e830707
+  country_code: fr
+  city_code: par
+  plus: false
+  user: root
+fr-par-110.geph.io:
+  signing_key: 63187487c4b4aa0857fa8643aaf9c2bf18ca94fa1120f4d7f4f1f3e09cbf689c
+  sosistab_key: e53a740abf6c284daea41c4f5a4a922c13173050b5b16202475143ab28785975
+  country_code: fr
+  city_code: par
+  plus: false
+  user: root
+fr-par-111.geph.io:
+  signing_key: cb7ddfdd90a884ecacbe5895e4fe28fb7e5ad9c7a381a8cb4d831f2a472cdee1
+  sosistab_key: 6b24553252b27b069b5b3b82a1f2409fa10c42d58990d61442c6aa703cd45071
+  country_code: fr
+  city_code: par
+  plus: false
+  user: root
+fr-par-112.geph.io:
+  signing_key: ee2952e49dcac045c65dc0a80656784de5bd8e41f0c650e571026b071594d48f
+  sosistab_key: e83ae5436d3de7e2a8834f73c1e1ca987153046857c68b489ef927658ccba331
+  country_code: fr
+  city_code: par
+  plus: false
+  user: root
+
 
 # Other exits
 1.ams.nl.ngexits.geph.io:
